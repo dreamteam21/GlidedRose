@@ -1,0 +1,15 @@
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/bin/Debug/net6.0/GlidedRose
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/bin/Debug/net6.0/GlidedRose.deps.json
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/bin/Debug/net6.0/GlidedRose.runtimeconfig.json
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/bin/Debug/net6.0/GlidedRose.dll
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/bin/Debug/net6.0/GlidedRose.pdb
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/GlidedRose.csproj.AssemblyReference.cache
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/GlidedRose.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/GlidedRose.AssemblyInfoInputs.cache
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/GlidedRose.AssemblyInfo.cs
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/GlidedRose.csproj.CoreCompileInputs.cache
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/GlidedRose.dll
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/refint/GlidedRose.dll
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/GlidedRose.pdb
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/GlidedRose.genruntimeconfig.cache
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/ref/GlidedRose.dll
