@@ -9,6 +9,13 @@ public class Item
     }
 
     public int sellIn;
+    public int quality;
+
+    public int Quality
+    {
+        get => quality;
+        set => quality = value;
+    }
 
     public Item(int sellIn = 0)
     {
@@ -17,6 +24,19 @@ public class Item
 
     public void UpdateItem()
     {
-        this.SellIn = sellIn - 1;
+        if (this.SellIn <= 0)
+        {
+            this.Quality = Quality - 2;
+        }
+        else
+        {
+            this.Quality = Quality - 1;
+        }
+
+        if (this.Quality <= 0)
+        {
+            this.Quality = 0;
+        }
+        this.SellIn = SellIn - 1;
     }
 }
