@@ -48,4 +48,27 @@ public class GlidedRoseTest
         item.UpdateItem();
         Assert.That(item.Quality, Is.EqualTo(expected_quality));
     }
+
+    [TestCase(10, 6, 7)]
+    [TestCase(3,7, 8)]
+    public void ShouldAgedBrieQualityIncreaseEveryDay(int sellIn, int quality, int expected_quality)
+    {
+        AgedBrie agedBrie = new AgedBrie();
+        agedBrie.SellIn = sellIn;
+        agedBrie.Quality = quality;
+        agedBrie.UpdateItem();
+        Assert.That(agedBrie.Quality, Is.EqualTo(expected_quality));
+    }
+
+    [TestCase(10, 50, 50)]
+    [TestCase(0,50, 48)]
+    [TestCase(-5,50, 48)]
+    public void ShouldAgedBrieQualityNeverBeMoreThan50(int sellIn, int quality, int expected_quality)
+    {
+        AgedBrie agedBrie = new AgedBrie();
+        agedBrie.SellIn = sellIn;
+        agedBrie.Quality = quality;
+        agedBrie.UpdateItem();
+        Assert.That(agedBrie.Quality, Is.EqualTo(expected_quality));
+    }
 }

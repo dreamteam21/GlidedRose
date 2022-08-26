@@ -40,3 +40,30 @@ public class Item
         this.SellIn = SellIn - 1;
     }
 }
+
+public class AgedBrie : Item
+{
+    public void UpdateItem()
+    {
+        if (this.SellIn <= 0)
+        {
+            this.Quality = Quality - 2;
+        }
+        else
+        {
+            this.Quality = Quality + 1;
+        }
+
+        if (this.Quality <= 0)
+        {
+            this.Quality = 0;
+        }
+        
+        if (this.Quality > 50)
+        {
+            this.Quality = 50;
+        }
+        
+        this.SellIn = SellIn - 1;
+    }
+}
