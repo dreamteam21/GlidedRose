@@ -1668,6 +1668,9 @@
       "GlidedRose/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NUnit": "3.13.3"
+        },
         "compile": {
           "bin/placeholder/GlidedRose.dll": {}
         },

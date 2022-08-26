@@ -1061,6 +1061,9 @@
         }
       },
       "GlidedRose/1.0.0": {
+        "dependencies": {
+          "NUnit": "3.13.3"
+        },
         "runtime": {
           "GlidedRose.dll": {}
         }
