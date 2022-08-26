@@ -72,15 +72,16 @@ public class GlidedRoseTest
         Assert.That(agedBrie.Quality, Is.EqualTo(expected_quality));
     }
 
-    [TestCase(10,5,5)]
-    [TestCase(0,5,5)]
-    [TestCase(-21,5,5)]
-    public void ShouldSulfurasQualityNeverDecrease(int sellIn, int quality, int expected_quality)
+    [TestCase(10,5,10,5)]
+    [TestCase(0,5,0,5)]
+    [TestCase(-21,5,-21,5)]
+    public void ShouldSulfurasNeverDecrease(int sellIn, int quality, int expected_sellIn, int expected_quality)
     {
         Sulfuras sulfuras = new Sulfuras();
         sulfuras.SellIn = sellIn;
         sulfuras.Quality = quality;
         sulfuras.UpdateItem();
+        Assert.That(sulfuras.SellIn, Is.EqualTo(expected_sellIn));
         Assert.That(sulfuras.Quality, Is.EqualTo(expected_quality));
     }
 
