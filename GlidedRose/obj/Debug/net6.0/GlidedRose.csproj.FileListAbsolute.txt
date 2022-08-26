@@ -28,3 +28,5 @@
 /Users/biley.tarnkijkul/Desktop/GlidedRose/GlidedRose/obj/Debug/net6.0/GlidedRose.pdb
 /Users/biley.tarnkijkul/Desktop/glidedrose/GlidedRose/obj/Debug/net6.0/GlidedRose.genruntimeconfig.cache
 /Users/biley.tarnkijkul/Desktop/glidedrose/GlidedRose/obj/Debug/net6.0/ref/GlidedRose.dll
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/bin/Debug/net6.0/nunit.framework.dll
+/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/Debug/net6.0/GlidedRose.csproj.CopyComplete

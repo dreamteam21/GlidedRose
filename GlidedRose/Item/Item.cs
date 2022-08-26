@@ -1,3 +1,5 @@
+using System.Reflection;
+
 namespace GlidedRose.Item;
 
 public class Item
@@ -5,7 +7,6 @@ public class Item
     public String name;
     public int sellIn;
     public int quality;
-
     public string Name
     {
         get => name;
@@ -75,7 +76,11 @@ public class AgedBrie : Item
 
 public class Sulfuras : Item
 {
-    public void UpdateItem(){}
+    public void UpdateItem()
+    {
+        this.SellIn = this.SellIn;
+        this.Quality = this.Quality;
+    }
 }
 
 public class BackstagePasses : Item
