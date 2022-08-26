@@ -79,11 +79,23 @@ public class BackstagePasses : Item
     {
         if (this.SellIn <= 0)
         {
-            this.Quality = Quality - 2;
+            this.Quality = 0;
         }
         else
         {
-            this.Quality = Quality + 1;
+            if (this.SellIn <= 10 && this.SellIn > 5)
+            {
+                this.Quality = Quality + 2;
+            }
+            else if (this.SellIn <= 5 && this.SellIn >= 0)
+            {
+                this.Quality = Quality + 3;
+            }
+            else
+            {
+                
+                this.Quality = Quality + 1;
+            }
         }
 
         if (this.Quality <= 0)
