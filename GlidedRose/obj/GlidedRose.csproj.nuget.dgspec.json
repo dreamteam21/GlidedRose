@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/GlidedRose.csproj": {}
+    "/Users/biley.tarnkijkul/Desktop/GlidedRose/GlidedRose/GlidedRose.csproj": {}
   },
   "projects": {
-    "/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/GlidedRose.csproj": {
+    "/Users/biley.tarnkijkul/Desktop/GlidedRose/GlidedRose/GlidedRose.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/GlidedRose.csproj",
+        "projectUniqueName": "/Users/biley.tarnkijkul/Desktop/GlidedRose/GlidedRose/GlidedRose.csproj",
         "projectName": "GlidedRose",
-        "projectPath": "/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/GlidedRose.csproj",
-        "packagesPath": "/Users/dreamteam-work/.nuget/packages/",
-        "outputPath": "/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/obj/",
+        "projectPath": "/Users/biley.tarnkijkul/Desktop/GlidedRose/GlidedRose/GlidedRose.csproj",
+        "packagesPath": "/Users/biley.tarnkijkul/.nuget/packages/",
+        "outputPath": "/Users/biley.tarnkijkul/Desktop/GlidedRose/GlidedRose/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dreamteam-work/.nuget/NuGet/NuGet.Config"
+          "/Users/biley.tarnkijkul/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/dreamteam-work/.dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
