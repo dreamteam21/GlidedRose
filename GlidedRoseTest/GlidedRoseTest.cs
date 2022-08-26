@@ -131,6 +131,17 @@ public class GlidedRoseTest
         backstagePasses.UpdateItem();
         Assert.That(backstagePasses.Quality, Is.EqualTo(expected_quality));
     }
+    [TestCase(11,5,3)]
+    [TestCase(0,5,1)]
+    [TestCase(0,3,0)]
+    public void ShouldConjuredDecreaseByTwice(int sellIn, int quality, int expected_quality)
+    {
+        Conjured conjured = new Conjured();
+        conjured.SellIn = sellIn;
+        conjured.Quality = quality;
+        conjured.UpdateItem();
+        Assert.That(conjured.Quality, Is.EqualTo(expected_quality));
+    }
 }
 
 
