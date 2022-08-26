@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+2W8/FjIh+OjbW0mivzHblsL05msx+41aYUmGLU+n0m0Y7oYtNs9r70bq8leDpTinsqtVDWB8AK84zNc2BoZjQ==",
+  "dgSpecHash": "gP4pACpJjPbYvYTSJRg6aPwQl4eDhOgjGsIlNIvmOyMz17TJqj10+KiJgZKcsDx7MgpRzb9V+C/jqf2tuuWRSA==",
   "success": true,
   "projectFilePath": "/Users/dreamteam-work/RiderProjects/GlidedRose/GlidedRose/GlidedRose.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/dreamteam-work/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/dreamteam-work/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/dreamteam-work/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

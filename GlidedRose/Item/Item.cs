@@ -2,15 +2,20 @@ namespace GlidedRose.Item;
 
 public class Item
 {
+    public String name;
+    public int sellIn;
+    public int quality;
+
+    public string Name
+    {
+        get => name;
+        set => name = value ?? throw new ArgumentNullException(nameof(value));
+    }
     public int SellIn
     {
         get => sellIn;
         set => sellIn = value;
     }
-
-    public int sellIn;
-    public int quality;
-
     public int Quality
     {
         get => quality;
